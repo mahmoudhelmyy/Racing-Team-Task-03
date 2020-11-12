@@ -1,0 +1,197 @@
+
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/1c0d990e49.js" crossorigin="anonymous"></script>
+<style>
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.screen {
+  position: relative;
+  border-radius: 5px;
+  margin: auto;
+}
+.screen:after {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: -35px;
+  left: 3px;
+  right: 3px;
+  bottom: -10px;
+  z-index: 0;
+  border: 1px solid #000000;
+}
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+
+}
+
+.screen-header-button.close {
+  background: #ed1c6f;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+}
+
+.parent{
+  width: 50%;
+  margin:0% 20%;
+}
+/* Style inputs */
+.text {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  margin-left: 40px;
+  height: 45px;
+}
+.all{
+  width: 40%;
+  padding:20px;
+}
+.info{
+  display: inline;
+  margin: 10px;
+  line-height: 30px;}
+
+/* Style the container/contact section */
+.container {
+  width: 950px;
+  display: flex;
+  margin: auto;
+  margin-left :80px;
+  margin-top: 40px;
+  height: 260px;
+  padding: 5px;
+  flex: 0 1 700px;
+  margin: auto;
+}
+
+.Boxs {
+  width: 60%;
+  margin-bottom: 300px;
+}
+
+.email{
+  margin-left: 40px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  height: 45px;
+}
+
+.paragraph{
+  color: #ccc;
+  }
+
+.Header{
+letter-spacing: 3px;
+margin-top: 30px;
+}
+
+.message{
+  width: 435px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  margin: 8px;
+  margin-left: 40px;
+  height: 150px;
+}
+.button{
+    margin-left: 325px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen">
+            <div class="parent">
+            <div style="text-align:center" >
+                <h2 class="Header">CONTACT</h2>
+                <p class="paragraph"> Fan!Drop a note! </p>
+            </div>
+
+            <form>
+                <div class="container">
+                <div id="all">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                <p class="info">Chicago, US</p>
+                <br>
+                <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                <p class="info">Phone:+00151515</p>
+                <br>
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <p class="info">Email: mail@mail.com</p>
+                <br>
+                </div>
+                <div class="Boxs">
+                    <input type="text" class="text" name="name" placeholder="Name">
+                    <input type="email" class="email" name="email" placeholder="Email">
+                    <input type="message" class="message" name="message" placeholder="Write Your Message">
+                    <button class="button"> Send Your Message</button>
+                </div>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+    </div>  
+</div>
+</body>
+</html>
