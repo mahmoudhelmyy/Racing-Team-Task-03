@@ -1,0 +1,81 @@
+<style>
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.parent{
+  width: 50%;
+  margin:0% 20%;
+}
+/* Style inputs */
+.text {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  margin-left: 40px;
+  height: 45px;
+}
+.all{
+  width: 40%;
+  padding:20px;
+}
+.info{
+  display: inline;
+  margin: 10px;
+  line-height: 30px;}
+
+/* Style the container/contact section */
+.container {
+  width: 950px;
+  display: flex;
+  margin-left :45px;
+  margin-top: 40px;
+  height: 270px;
+  padding: 5px;
+}
+
+/* Create 2 columns that float next to eachother */
+.Boxs {
+  width: 60%;
+  margin-left :40px;
+  margin-bottom: 300px;
+}
+
+.email{
+  margin-left: 40px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  height: 45px;
+}
+
+.paragraph{
+  color: #ccc;
+  text-align:center;
+  }
+
+.Header{
+letter-spacing: 3px;
+margin-top: 30px;
+text-align:center;
+}
+
+.message{
+  width: 435px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  margin: 8px;
+  margin-left: 40px;
+  height: 150px;
+}
+.button{
+    margin-left: 325px;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+</style>
